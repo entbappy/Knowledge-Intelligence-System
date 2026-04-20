@@ -1,0 +1,30 @@
+1. Learning Outcome:
+   - Master building a RAG (Retrieval-Augmented Generation) pipeline using LangChain.
+   - Implement document ingestion, chunking, and vector storage with ChromaDB.
+   - Understand how to integrate OpenAI LLMs with a conversational retrieval chain.
+   - Build a full-stack web application using Flask with HTML/CSS frontend.
+   - Gain experience with AWS S3 for cloud-based document storage.
+   - Develop a modular, production-ready Python application with service-oriented architecture.
+
+2. What you will build:
+   - A "Knowledge Intelligence System" that lets users upload documents and ask intelligent questions.
+   - A RAG pipeline that processes PDFs and text files, stores embeddings in ChromaDB, and retrieves context-aware answers.
+   - A Flask backend with REST API endpoints for document upload and question-answering.
+   - A clean web interface for uploading documents and interacting with the AI-powered Q&A system.
+
+3. Prerequisite:
+   - Proficiency in Python programming.
+   - Basic understanding of REST APIs and web frameworks (Flask).
+   - Familiarity with LLMs and the concept of embeddings.
+   - An OpenAI API key and AWS credentials (S3).
+
+4. Technologies:
+   - Programming Language: Python
+   - Web Framework: Flask
+   - AI/LLM Framework: LangChain
+   - LLM Provider: OpenAI (GPT-3.5-Turbo)
+   - Vector Database: ChromaDB
+   - Cloud Storage: AWS S3 (boto3)
+   - Frontend: HTML/CSS, Jinja2 Templates
+   - Document Processing: PyPDF, Unstructured
+   - Environment Management: Python-dotenv
